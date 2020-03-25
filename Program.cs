@@ -15,6 +15,7 @@ namespace QuickSortExample
             {
                 randomList.Add(random.Next());
             }
+
             bubleSort(randomList.ToArray());
             quickSort(randomList.ToArray());
             Console.WriteLine("End of the program!");
